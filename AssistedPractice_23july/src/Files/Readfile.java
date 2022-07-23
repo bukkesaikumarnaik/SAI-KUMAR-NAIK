@@ -9,7 +9,7 @@ public class Readfile {
  public static void main(String[] args)
  {
      try {
-         File Obj = new File("SAI KUMAR NAIK");
+         File Obj = new File("C:\\Users\\naiks\\eclipse-workspace\\AssistedPractice_23july\\sathwik.txt");
          Scanner Reader = new Scanner(Obj);
          while (Reader.hasNextLine()) {
              String data = Reader.nextLine();

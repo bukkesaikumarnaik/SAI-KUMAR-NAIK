@@ -10,7 +10,7 @@ public class CreateFile
 
      try
      {
-         File Obj = new File("SaiKumarFiles");
+         File Obj = new File("C:\\Users\\naiks\\eclipse-workspace\\AssistedPractice_23july\\sathwik.txt");
          if (Obj.createNewFile()) {
              System.out.println("File created: "
                                 + Obj.getName());

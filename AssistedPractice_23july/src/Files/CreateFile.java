@@ -10,7 +10,7 @@ public class CreateFile
 
      try
      {
-         File Obj = new File("SaiKumar Files");
+         File Obj = new File("SaiKumarFiles");
          if (Obj.createNewFile()) {
              System.out.println("File created: "
                                 + Obj.getName());
